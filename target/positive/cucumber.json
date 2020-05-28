@@ -1,0 +1,140 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User navigates to registeration website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4420164300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to \"http://demo.guru99.com/test/newtours/register.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://demo.guru99.com/test/newtours/register.php",
+                  "offset": 19
+                }
+              ],
+              "location": "RegisterPageSteps.user_navigates_to_something(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13209249100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Test if the User Registeration is successful",
+        "description": "",
+        "id": "test-user-registeration-feature.;test-if-the-user-registeration-is-successful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1534770400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3538118300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user entered the registeration details",
+            "match": {
+              "location": "RegisterPageSteps.user_entered_the_registeration_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3065788700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "take screenshot of the entered details",
+            "match": {
+              "location": "RegisterPageSteps.take_screenshot_of_the_entered_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1062634100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "submit the user registerarion details",
+            "match": {
+              "location": "RegisterPageSteps.submit_the_user_registerarion_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237028000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify if the \"naqeeb123\" is registered succesfully",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naqeeb123",
+                  "offset": 15
+                }
+              ],
+              "location": "RegisterPageSteps.verify_if_the_something_is_registered_succesfully(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Syed"
+          }
+        ]
+      }
+    ],
+    "name": "Test User Registeration Feature.",
+    "description": "Description: The purpose of this feature is to test the User Registeration",
+    "id": "test-user-registeration-feature.",
+    "keyword": "Feature",
+    "uri": "Register.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Syed"
+      }
+    ]
+  }
+]
